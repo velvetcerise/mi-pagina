@@ -11,16 +11,15 @@
     <title>Grimoire</title>
   </head>
   <body>
-    <header> <!--Parte header y menu nav-->
-      <nav>
-        <div class="container">
+      <header> <!--Parte header y menu nav-->
+        <nav>
           <div class="row">
             <div class="col-6 encabezado">
-              <a href="#"><span>Online Shop</span></a>
+              <a id="head-link" href="#"><span >Online Shop</span></a>
               <img id="logo" src="assets/images/footer-logo.png" alt="logo">
             </div>
-            <!--Menu-->
-            <div class="col-5 encabezado">
+              <!--Menu-->
+            <div class="col-4 encabezado" id="aline">
               <ul class="menu-ul">
                 <a href="#"><li class="menu">Home</li></a>
                 <a href="#"><li class="menu">About</li></a>
@@ -28,71 +27,70 @@
                 <a href="#"><li class="menu">Contact</li></a>
               </ul>
             </div>
-            </div>
           </div>
         </nav>
-    </header>
-    <!--Imágen de fondo y presentación-->
-    <section id="background">
-      <div class="col-12 head-background">
-        <p class="head">Magazine / Topics </p>
-        <h1 class="head">Grimoire  2017  Early  Autumn</h1>
-        <p class="head">2017.08.25</p>
-      </div>
-    </section>
-    <section class="first-text">
+      </header>
       <div class="container">
+        <!--Imágen de fondo y presentación-->
+        <section id="background">
           <div class="row">
-            <div class="col-6">
-              <!--Información-->
+            <div class="col-12 head-background">
+              <div class="head-text">
+                <p class="head">Magazine / Topics </p>
+                <h1 class="head">Grimoire  2017  Early  Autumn</h1>
+                <p class="head">2017.08.25</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="first-text">
+          <div class="row" id="info">
+            <div class="col-6 info">
+            <!--Información-->
               <h3>What we do</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
               <button type="button" name="button">More About Us</button>
             </div>
-            <div class="col-1">
+            <div class="col-2 info">
+            <!--Espacio-->
               <p></p>
             </div>
-            <div class="col-4 contact">
-            <!--Contacto-->
-            <h3>Contact Us</h3>
-            <ul class="contact">
+            <div class="col-5">         
+              <!--Contacto-->
+              <h3>Contact Us</h3>
+              <ul class="contact">
                 <li>3481 Melirose Place</li>
                 <li>Beverlly Hills, CA 90210</li>
-                <li></li>
                 <li>Phone: (+511) 25355-7890</li>
                 <li>e-mail: grimoire@brand.net</li>
-            </ul>
-               </div>
-              </div>
-              </div>
+              </ul>
+            </div>
+          </div>
           </section>
           <section class="clothes">
-            <div class="container">
-              <div class="row">
-                <div class="col-4">
-                  <a href="#"><img src="assets/images/red-dress.jpg" alt="red-dress"> </a>
-                  <h4>One-Piece</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                  <button type="button" name="button">More</button>
-                </div>
-                <div class="col-4">
-                  <a href="#"><img src="assets/images/skirt.jpg" alt="black-skirt"></a>
-                  <h4>Skirt</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                  <button type="button" name="button">More</button>
-                </div>
-                <div class="col-4">
-                  <a href="#"><img src="assets/images/ears.jpg" alt="earrings"></a>
-                  <h4>Accesories</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                  <button type="button" name="button">More</button>
-                </div>
+            <div class="row">
+              <div class="col-4 square">
+                <a href="#"><img src="assets/images/red-dress.jpg" alt="red-dress"> </a>
+                <h4>One-Piece</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <button type="button" name="button">More</button>
+              </div>
+              <div class="col-4 square">
+                <a href="#"><img src="assets/images/skirt.jpg" alt="black-skirt"></a>
+                <h4>Skirt</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <button type="button" name="button">More</button>
+              </div>
+              <div class="col-4 square">
+                <a href="#"><img src="assets/images/ears.jpg" alt="earrings"></a>
+                <h4>Accesories</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <button type="button" name="button">More</button>
               </div>
             </div>
           </section>
           <footer>
-            <div class="container">
               <div class="row">
                 <div class="col-12 final">
                   <p><strong>Copyright © Select Vintage Shop</p></strong>
@@ -100,5 +98,6 @@
               </div>
             </div>
           </footer>
-        </body>
+    </div>
+  </body>
 </html>

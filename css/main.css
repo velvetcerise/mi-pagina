@@ -1,16 +1,15 @@
 body { /*/Estilos generales para la página*/
   background: #F1EDE8;
   margin: 0 auto;
-  padding: 0;
-  width: 100%;
+  padding: -12vh;
   font-family: 'Didact Gothic', sans-serif;
   color: #A09270;
-  background-image: url("./../assets/images/lay2.jpg");
-
+  background-image: url("./../assets/images/sa.jpg");
 }
 
 img {
   height: 400px;
+  margin-top: 18px;
 }
 
 a {
@@ -34,8 +33,10 @@ ul {
 
 button {
   color: #A09270;
-  border-style: double;
-  background: #F7F5F2;
+  border-radius: 4px;
+  border: 3px solid double pink;
+  border-width: 4px;
+  background: #f4efe8;
   width: 226px;
   padding: 15px;
 }
@@ -54,14 +55,23 @@ h4 {
 }
 
 header, footer {
-  background: #F7F5F2;
-  height: 66px;
+  background: #f9f6f2;
+  height: 68px;
+}
+
+/*Efecto fade*/
+img, button {
+    opacity: 1;
+    transition: .6s ease;
+    backface-visibility: hidden;
+    margin-bottom: 4vh;
 }
 
 img:hover, button:hover {
-    opacity: 0.7;
-    filter: alpha(opacity=80);
+  opacity: 0.56;
+
 }
+
 
 #logo {
   height: 50px;
@@ -70,22 +80,35 @@ img:hover, button:hover {
   margin-top: -12px;
 }
 
+#info {
+  background-color: rgb(250, 245, 237);
+}
+
+#aline {
+  text-align: right;
+}
+
 .head-background {
-  background: url("./../assets/images/portada.jpg");
+  background-image:  url("./../assets/images/portada.jpg");
+  background-size: cover;
   font-size: 45px;
   text-align: center;
   color: white;
-  text-shadow:  2px 0px 6px #969696;
+  text-shadow:  3px 0px 9px #969696;
   height: 350px;
   margin-top: 22px;
   margin-bottom: 42px;
+}
 
+.head {
+  margin-top: 32px;
 }
 
 .head-ul {
   list-style: none;
   position: relative;
   float: right;
+  text-align: left;
 }
 
 .menu { /*Clase referida al "li" del menu principal*/
@@ -93,7 +116,7 @@ img:hover, button:hover {
   list-style: none; /*Quitar viñeta*/
   width: 85px;
   display: inline-block; /*Convertir las celdas de la tabla a lineal*/
-  text-align: center;
+  text-align: left;
 }
 
 .first-text{
@@ -106,8 +129,20 @@ img:hover, button:hover {
 
 .clothes {
   margin-bottom: 44px;
+  text-align: center;
 }
 
 .encabezado {
   margin-top: 22px;
+}
+
+
+.clothes, .info {
+  background-color: rgb(250, 245, 237);
+  /* padding: -55vh; */
+}
+
+.info {
+  border-style: solid rgb(250, 245, 237);
+  border-width: 33vh;
 }
