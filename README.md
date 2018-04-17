@@ -1,4 +1,4 @@
-# Página Responsive
+# Pagina Responsive
 Haciendo uso de grid system y medias queries, el reto consiste en crear un producto web responsivos que se adapte y permita mostrar la versión mobile.
 
 ## Objetivo
