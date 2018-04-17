@@ -6,3 +6,5 @@ Crear una página web utilizando el enfoque de diseño Responsive Web Design.
 
 El reto entonces, consiste en desarrollar desde cero el sistema grid (rows and cols), el diseño es libre, el único requisito es no usar frameworks establecidos como Materialize o Bootrstrap.  
 ![vista](https://raw.githubusercontent.com/velvetcerise/portafolio/gh-pages/assets/images/my-page.jpg)
+
+#### < L a b o r a t o r i a >
