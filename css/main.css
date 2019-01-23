@@ -118,10 +118,17 @@ img:hover, button:hover {
   text-align: left;
 }
 
-.menu { /*Clase referida al "li" del menu principal*/
+.container-menu {
+  padding: 1em;
+}
+.menu-ul {
+  padding-left: 3.5em;
+  width: 100%;
+}
+.menu { 
   font-size: 20px;
   list-style: none; /*Quitar viñeta*/
-  width: 85px;
+  margin: 3px;
   display: inline-block; /*Convertir las celdas de la tabla a lineal*/
   text-align: left;
 }
@@ -139,8 +146,8 @@ img:hover, button:hover {
   padding: 2em;
 }
 
-.encabezado {
-  margin-top: 22px;
+.encabezado a span {
+  padding: 3em;
 }
 
 
