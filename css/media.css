@@ -1,4 +1,4 @@
-@media screen and (max-width:850px) {
+@media screen and (max-width:870px) {
   .menu-ul, .head, #logo{
     display: none;
   }
@@ -7,3 +7,12 @@
     padding: 0 0 3em;
   }
 }
+
+
+
+@media screen and (max-width:370px) {
+  .first-text {
+    padding: 1em;
+  }
+}
+
