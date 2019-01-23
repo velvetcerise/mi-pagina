@@ -8,8 +8,11 @@ body { /*/Estilos generales para la página*/
 }
 
 img {
-  height: 400px;
-  margin-top: 18px;
+   /*Responsive Image*/
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 a {
@@ -69,7 +72,6 @@ img, button {
 
 img:hover, button:hover {
   opacity: 0.56;
-
 }
 
 
@@ -81,11 +83,16 @@ img:hover, button:hover {
 }
 
 #info {
+  padding: 2em;
   background-color: rgb(250, 245, 237);
 }
 
 #aline {
   text-align: right;
+}
+
+.contact-container {
+  padding-left: 84px
 }
 
 .head-background {
@@ -120,7 +127,7 @@ img:hover, button:hover {
 }
 
 .first-text{
-  margin-bottom: 45px;
+  padding: 3em;
 }
 
 .final {
@@ -128,13 +135,14 @@ img:hover, button:hover {
 }
 
 .clothes {
-  margin-bottom: 44px;
   text-align: center;
+  padding: 2em;
 }
 
 .encabezado {
   margin-top: 22px;
 }
+
 
 
 .clothes, .info {

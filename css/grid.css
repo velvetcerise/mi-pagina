@@ -44,13 +44,11 @@
 .col-5 {
   width: calc(41.66% - 5px);
   float: left;
-  padding-left: 45px;
 }
 
 .col-6 {
   width: calc(50% - 15px);
   float: left;
-  padding-left: 4vh;
 }
 
 .col-7 {
@@ -64,7 +62,7 @@
 }
 
 .col-11 {
-  width: calc(91.66%- 15px;)
+  width: calc(91.66%- 15px);
 }
 
 .col-12 {
@@ -78,4 +76,6 @@
         width: 100%;
         text-align: center;
     }
+
+    
 }

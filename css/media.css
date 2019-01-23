@@ -1,6 +1,9 @@
 @media screen and (max-width:850px) {
   .menu-ul, .head, #logo{
-    visibility: hidden;
+    display: none;
   }
 
+  .contact-container {
+    padding: 0 0 3em;
+  }
 }
